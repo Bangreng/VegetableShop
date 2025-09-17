@@ -2,7 +2,7 @@
 import { describe, it, expect } from 'vitest';
 import Header from './Header';
 import { CartProvider } from '../../features/cart/CartContext';
-import { fireEvent, getByText, screen, within, render } from "@testing-library/react";
+import { fireEvent, screen, render } from "@testing-library/react";
 import { MantineProvider } from '@mantine/core';
 
 describe('Header', () => {

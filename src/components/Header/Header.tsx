@@ -5,7 +5,7 @@ import { useState } from 'react';
 import CartPopup from '../../features/cart/CartPopup';
 
 export default function Header() {
-    const { totalItems, totalPrice } = useCart();
+    const { totalItems } = useCart();
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     return (
